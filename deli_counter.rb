@@ -1,5 +1,5 @@
 def line(deli)
-  if katz_deli.length == 0
+  if deli.length == 0
       puts "The line is currently empty."
   else
     display_line = deli.collect.with_index(1) do |element, index| "#{index}. #{element}"

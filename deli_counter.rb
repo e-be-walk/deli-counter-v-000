@@ -1,7 +1,10 @@
 katz_deli = []
 
 def line(katz_deli)
-  array << gets.chomp
-  
+  while katz_deli.length != 0
+    array << gets.chomp
+    katz_deli = array.last
+  end
+
 
 end

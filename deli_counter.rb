@@ -1,7 +1,7 @@
 katz_deli = []
 
-def line(katz_deli, name)
-  name = input.gets.to_a
+def line(katz_deli)
+  array << gets.chomp
+  
 
 end
-  
